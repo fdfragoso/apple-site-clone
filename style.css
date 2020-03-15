@@ -87,3 +87,28 @@ aside a {
 .image-row-item-4 {
   background: url(images/supplier_responsibility.jpg);
 }
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-parent {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left-content {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer-right-content {
+  width: 50%;
+  margin-right: 15%;
+}
