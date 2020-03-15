@@ -106,6 +106,17 @@ nav {
   box-shadow: #767676;
 }
 
+.menu-search-input:focus {
+  width: 150px;
+  outline: none;
+  background-color: white;
+}
+
+.menu-search-input:focus + .menu-magnifyer svg path,
+.menu-search-input:focus + .menu-magnifyer svg polygon {
+  fill: grey;
+}
+
 /* TEXTS IN FRONT OF BACKGROUND IMAGE */
 
 .middle-text {
