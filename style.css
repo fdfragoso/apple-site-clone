@@ -55,3 +55,35 @@ div {
 .middle-text-bottom:hover {
   background: url(images/header-bottom-hover.png) no-repeat;
 }
+
+/* IMAGES FROM ASIDE BAR */
+
+aside {
+  display: flex;
+  width: 1349px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+aside a {
+  width: 360px;
+  min-width: 280px;
+  height: 200px;
+  margin-left: 2px;
+}
+
+.image-row-item-1 {
+  background: url(images/iphone5s.jpg);
+}
+
+.image-row-item-2 {
+  background: url(images/iphone5c.jpg);
+}
+
+.image-row-item-3 {
+  background: url(images/30_years.jpg);
+}
+
+.image-row-item-4 {
+  background: url(images/supplier_responsibility.jpg);
+}
