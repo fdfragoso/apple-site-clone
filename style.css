@@ -112,3 +112,23 @@ footer {
   width: 50%;
   margin-right: 15%;
 }
+
+.footer-right-content a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-right-content a::after {
+  margin: 5px;
+  color: grey;
+  content: "|";
+}
+
+.footer-content-right-flag-usa {
+  background: url(https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  top: -3px;
+  position: relative;
+}
