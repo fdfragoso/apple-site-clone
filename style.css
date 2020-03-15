@@ -108,6 +108,15 @@ footer {
   margin-left: 25%;
 }
 
+.footer-left-content a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-left-content p {
+  margin-bottom: 20px;
+}
+
 .footer-right-content {
   width: 50%;
   margin-right: 15%;
