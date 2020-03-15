@@ -25,6 +25,62 @@ div {
   z-index: -1;
 }
 
+/* NAV BAR */
+
+nav {
+  position: relative;
+  top: 85px;
+  width: 980px;
+  margin: 0 auto;
+  border-radius: 3px;
+  height: 36px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
+  background-color: #6e6e6e;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  cursor: pointer;
+}
+
+.menu-logo {
+  padding-top: 5px !important;
+  background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% 0;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.menu-item {
+  width: 100%;
+  max-width: 103px;
+  height: 36px;
+  border-right: 1px solid grey;
+  text-align: center;
+}
+
+.menu-link {
+  padding: 10px;
+  display: block;
+  color: white;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.menu-search-input {
+
+}
+
+.menu-magnifyer {
+
+}
+
 /* TEXTS IN FRONT OF BACKGROUND IMAGE */
 
 .middle-text {
