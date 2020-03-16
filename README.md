@@ -37,7 +37,7 @@
 
 ## 🔴 Live Demo
 
-[Live Demo](https://raw.githack.com/fdfragoso/apple-site-clone/features/index.html)
+[Live Demo](https://rawcdn.githack.com/fdfragoso/apple-site-clone/55a7a94627db4546c007854203d8b01949b4a01f/index.html)
 
 ### 🛠 Install <a name = "install"></a>
 
