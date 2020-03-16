@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.78rem;
+  color: #6e6e6e;
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.background-img {
+  background: url(images/background.jpg) 50% 100% no-repeat;
+  height: 1535px;
+  width: 100%;
+  max-width: 1349px;
+  margin: 0 auto;
+  margin-top: -997px;
+  z-index: -1;
+}
+
+/* NAV BAR */
+
+.navbar {
+  position: relative;
+  top: 85px;
+  width: 980px;
+  margin: 0 auto;
+  border-radius: 3px;
+  height: 36px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
+  background-color: #6e6e6e;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  cursor: pointer;
+}
+
+.navbar-logo {
+  background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
+  background-position: 50% 0;
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.navbar-item {
+  width: 100%;
+  max-width: 103px;
+  height: 36px;
+  border-right: 1px solid grey;
+  text-align: center;
+}
+
+.navbar-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-link {
+  padding: 10px;
+  display: block;
+  color: white;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.navbar-search {
+  padding: 8px 12px;
+  display: inline;
+}
+
+.navbar-search-input {
+  width: 70px;
+  border-width: 0.5px;
+  border-color: #767676;
+  border-radius: 15px;
+  padding: 4px 15px;
+  padding-left: 20px;
+  font-size: 12px;
+  background: rgba(180, 180, 180, 0.3);
+  transition: all 0.4s;
+}
+
+.navbar-magnifyer {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  cursor: default;
+}
+
+.navbar-magnifyer svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 17px;
+  left: 5px;
+}
+
+.navbar-magnifyer-icon {
+  fill: white;
+  transition: 0.01s;
+  box-shadow: #767676;
+}
+
+.navbar-search-input:focus {
+  width: 150px;
+  outline: none;
+  background-color: white;
+}
+
+.navbar-search-input:focus + .navbar-magnifyer svg path,
+.navbar-search-input:focus + .navbar-magnifyer svg polygon {
+  fill: grey;
+}
+
+/* TEXTS IN FRONT OF BACKGROUND IMAGE */
+
+.middle-text {
+  width: 980px;
+  margin: -410px auto 0 auto;
+  cursor: pointer;
+  padding-bottom: 112px;
+}
+
+.middle-text div {
+  margin-top: 20px;
+  height: 80px;
+}
+
+.middle-text-header {
+  background: url(images/header-top.png) no-repeat;
+}
+
+.middle-text-center {
+  background: url(images/header-center.png) no-repeat;
+}
+
+.middle-text-bottom {
+  background: url(images/header-bottom.png) no-repeat;
+  margin-left: 100px;
+}
+
+.middle-text-bottom:hover {
+  background: url(images/header-bottom-hover.png) no-repeat;
+}
+
+/* IMAGES FROM ASIDE BAR */
+
+aside {
+  display: flex;
+  width: 1349px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+aside a {
+  width: 360px;
+  min-width: 280px;
+  height: 200px;
+  margin-left: 2px;
+}
+
+.image-row-item-1 {
+  background: url(images/iphone5s.jpg);
+}
+
+.image-row-item-2 {
+  background: url(images/iphone5c.jpg);
+}
+
+.image-row-item-3 {
+  background: url(images/30_years.jpg);
+}
+
+.image-row-item-4 {
+  background: url(images/supplier_responsibility.jpg);
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer-parent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-left-content {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer-left-content a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-left-content p {
+  margin-bottom: 20px;
+}
+
+.footer-right-content {
+  width: 65%;
+  margin-right: 17%;
+}
+
+.footer-right-content a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.footer-right-content a::after {
+  margin: 5px;
+  color: grey;
+  content: "|";
+}
+
+.footer-content-right-flag-usa {
+  background: url(https://web.archive.org/web/20140301004353im_/http://images.apple.com/global/elements/flags/16x16/usa.png);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  top: -3px;
+  position: relative;
+}
