@@ -199,7 +199,6 @@ footer {
 .footer-parent {
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -218,8 +217,8 @@ footer {
 }
 
 .footer-right-content {
-  width: 50%;
-  margin-right: 15%;
+  width: 65%;
+  margin-right: 17%;
 }
 
 .footer-right-content a {
