@@ -27,7 +27,7 @@ div {
 
 /* NAV BAR */
 
-.nav {
+.navbar {
   position: relative;
   top: 85px;
   width: 980px;
@@ -39,7 +39,7 @@ div {
   background-color: #6e6e6e;
 }
 
-.menu-list {
+.navbar-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,8 +47,7 @@ div {
   cursor: pointer;
 }
 
-.menu-logo {
-  padding-top: 5px !important;
+.navbar-logo {
   background-image: url(http://images.apple.com/global/nav/images/globalnav_text.svg);
   background-position: 50% 0;
   display: block;
@@ -56,7 +55,7 @@ div {
   height: 30px;
 }
 
-.menu-item {
+.navbar-item {
   width: 100%;
   max-width: 103px;
   height: 36px;
@@ -64,11 +63,11 @@ div {
   text-align: center;
 }
 
-.menu-item:hover {
+.navbar-item:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.menu-link {
+.navbar-link {
   padding: 10px;
   display: block;
   color: white;
@@ -77,12 +76,12 @@ div {
   text-decoration: none;
 }
 
-.menu-search {
+.navbar-search {
   padding: 8px 12px;
   display: inline;
 }
 
-.menu-search-input {
+.navbar-search-input {
   width: 70px;
   border-width: 0.5px;
   border-color: #767676;
@@ -94,14 +93,14 @@ div {
   transition: all 0.4s;
 }
 
-.menu-magnifyer {
+.navbar-magnifyer {
   position: absolute;
   width: 15px;
   height: 14px;
   cursor: default;
 }
 
-.menu-magnifyer svg {
+.navbar-magnifyer svg {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -109,20 +108,20 @@ div {
   left: 5px;
 }
 
-.menu-magnifyer-icon {
+.navbar-magnifyer-icon {
   fill: white;
   transition: 0.01s;
   box-shadow: #767676;
 }
 
-.menu-search-input:focus {
+.navbar-search-input:focus {
   width: 150px;
   outline: none;
   background-color: white;
 }
 
-.menu-search-input:focus + .menu-magnifyer svg path,
-.menu-search-input:focus + .menu-magnifyer svg polygon {
+.navbar-search-input:focus + .navbar-magnifyer svg path,
+.navbar-search-input:focus + .navbar-magnifyer svg polygon {
   fill: grey;
 }
 
