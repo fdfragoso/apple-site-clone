@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/fdfragoso/apple-site-clone/issues)
 [![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/fdfragoso/apple-site-clone/pulls)
 [![Made By](https://img.shields.io/badge/Made%20By-Felipe%20Fragoso-brightgreen)](https://github.com/fdfragoso)
@@ -15,9 +14,9 @@
 ## 📝 Content
 <p align="center">
 <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#installing">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#install">Install</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#built_using">Build with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#authors">Authors</a>
+<a href="#authors">Developer</a>
 </p>
 
 
@@ -40,19 +39,19 @@
 
 [Live Demo](https://raw.githack.com/fdfragoso/apple-site-clone/features/index.html)
 
-### 🛠 Installing <a name = "installing"></a>
+### 🛠 Install <a name = "install"></a>
 
 ```
 - Clone or download this repository;
 - Unpack (if downloaded);
 - Execute index.html on your favorite browser;
 
-- OR
+OR
 
 - Click on the live demo link above this session.
 
 ```
-## ✒️ Autors <a name = "authors"></a>
+## ✒️ Developer <a name = "authors"></a>
 
 👤 **Felipe Fragoso**
 
@@ -64,7 +63,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Kevinalvesdev/design-teardown-project/issues).
+Feel free to check the [issues page](https://github.com/fdfragoso/apple-site-clone/issues).
 
 ## 👍 Show your support
 
@@ -78,4 +77,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is free to use as learning purposes. For any external content (e.g. logo, images, ...), please contact the proper author and check their license of use.
+This project is free to use as learning purposes. 
+For any external content (e.g. logo, images, ...), please contact the proper author and check their license of use. 
+This is a studying project and not commercial.
